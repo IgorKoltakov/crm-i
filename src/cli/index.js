@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { program } from 'commander';
 // import createProject from './commands/create.js';
-import startServer from '../core/server.js';
+import startServer from '../../server.js';
 import path from 'path';
 
 // program

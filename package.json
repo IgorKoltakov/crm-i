@@ -18,6 +18,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/plugin-transform-react-jsx": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@vitejs/plugin-react": "^4.3.1",
+    "babel-register": "^6.26.0",
     "commander": "^12.1.0",
     "express": "^4.19.2"
   },

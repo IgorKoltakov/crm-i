@@ -1,4 +1,4 @@
-function createVNode(tag, props, children) {
+export function createVNode(tag, props, children) {
   return {tag, props, children};
 }
 

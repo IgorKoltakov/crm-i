@@ -1,0 +1,10 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    ["@babel/plugin-transform-react-jsx", {
+      "pragma": "createVNode", // Преобразование JSX в вашу функцию
+      "pragmaFrag": "Fragment",
+      "throwIfNamespace": false
+    }]
+  ]
+}
